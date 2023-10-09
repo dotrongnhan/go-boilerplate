@@ -1,0 +1,5 @@
+Name: user
+Host: 0.0.0.0
+Port: 8888
+
+DataSource: postgres://postgres:postgres@13.215.131.67:5432/ecommerce_db?sslmode=disable

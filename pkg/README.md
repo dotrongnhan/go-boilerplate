@@ -1,0 +1,3 @@
+The `pkg` folder contains publicly available packages that can be imported by other Go projects.
+
+For example: PayPal SDK, Currency Converter Service, Twilio SDK... 

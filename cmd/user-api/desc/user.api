@@ -1,0 +1,21 @@
+type (
+	CreateUserReq {
+		Username string `json:"username"`
+		Email    string `json:"email"`
+		Password string `json:"password"`
+	}
+
+	CreateUserResp {
+		Id int64 `json:"id"`
+	}
+)
+
+@server(
+	prefix: /api/v1/users
+)
+
+service user {
+	@doc "Create"
+	@handler create
+	post /create (CreateUserReq) returns (CreateUserResp)
+}

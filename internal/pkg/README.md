@@ -1,0 +1,1 @@
+The `pkg` folder contains shared packages that are used across multiple layers.

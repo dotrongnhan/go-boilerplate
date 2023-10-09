@@ -1,0 +1,1 @@
+The `scripts` folder contains support scripts that are used for tasks such as deployment or testing.
